@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LineComparison {
 
-	public static void main(String args[]) {
+	public static void compareLine() {
 		
 		
 		int x1,x2,y1,y2;
@@ -40,4 +40,7 @@ public class LineComparison {
 System.out.println(Double.compare(point1, point2));
 System.out.println(point1==(point2));
 	}
+  public static void main(String args[]) {
+compareLine();
+  }
 }
